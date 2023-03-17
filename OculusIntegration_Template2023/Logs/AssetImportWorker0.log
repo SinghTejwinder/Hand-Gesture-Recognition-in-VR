@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62690
+56019
 Successfully changed project path to: /Users/tejwindersingh/Documents/GitHub/Hand-Gesture-Recognition-in-VR/OculusIntegration_Template2023
 /Users/tejwindersingh/Documents/GitHub/Hand-Gesture-Recognition-in-VR/OculusIntegration_Template2023
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,12 +54,12 @@ Successfully changed project path to: /Users/tejwindersingh/Documents/GitHub/Han
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704437610112] Host "[IP] 10.0.0.156 [Port] 0 [Flags] 2 [Guid] 860119751 [EditorId] 860119751 [Version] 1048832 [Id] OSXEditor(0,Tejwinders-MBP.hsd1.ma.comcast.net) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704615810688] Host "[IP] 10.0.0.156 [Port] 0 [Flags] 2 [Guid] 2590771664 [EditorId] 2590771664 [Version] 1048832 [Id] OSXEditor(0,Tejwinders-MBP.hsd1.ma.comcast.net) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [140704437610112] Host "[IP] 10.0.0.156 [Port] 0 [Flags] 2 [Guid] 860119751 [EditorId] 860119751 [Version] 1048832 [Id] OSXEditor(0,Tejwinders-MBP.hsd1.ma.comcast.net) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704615810688] Host "[IP] 10.0.0.156 [Port] 0 [Flags] 2 [Guid] 2590771664 [EditorId] 2590771664 [Version] 1048832 [Id] OSXEditor(0,Tejwinders-MBP.hsd1.ma.comcast.net) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 121.24 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 9.82 ms.
+Refreshing native plugins compatible for Editor in 139.04 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 10.80 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/tejwindersingh/Documents/GitHub/Hand-Gesture-Recognition-in-VR/OculusIntegration_Template2023/Assets
@@ -75,103 +75,108 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56611
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.16f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.16f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.001291 seconds.
+Registered in 0.006891 seconds.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 110.52 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.61 ms.
+Refreshing native plugins compatible for Editor in 119.57 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.58 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.747 seconds
+- Completed reload, in  0.807 seconds
 Domain Reload Profiling:
-	ReloadAssembly (747ms)
-		BeginReloadAssembly (69ms)
+	ReloadAssembly (808ms)
+		BeginReloadAssembly (119ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (550ms)
-			LoadAssemblies (69ms)
+		EndReloadAssembly (560ms)
+			LoadAssemblies (121ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (137ms)
+			SetupTypeCache (140ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (319ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (330ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (58ms)
+				InitializePlatformSupportModulesInManaged (57ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (111ms)
+				RefreshPlugins (120ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (102ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004362 seconds.
+Registered in 0.020961 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/tejwindersingh/Documents/GitHub/Hand-Gesture-Recognition-in-VR/OculusIntegration_Template2023/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image /Users/tejwindersingh/Documents/GitHub/Hand-Gesture-Recognition-in-VR/OculusIntegration_Template2023/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-OnLevelWasLoaded was found on WitService
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 1.60 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.60 ms.
-Package Manager log level set to [2]
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.600 seconds
+- Completed reload, in  1.109 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1601ms)
-		BeginReloadAssembly (233ms)
+	ReloadAssembly (1111ms)
+		BeginReloadAssembly (240ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (142ms)
-		EndReloadAssembly (1238ms)
-			LoadAssemblies (90ms)
+			CreateAndSetChildDomain (145ms)
+		EndReloadAssembly (721ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (414ms)
-			ReleaseScriptCaches (6ms)
-			RebuildScriptCaches (112ms)
-			SetupLoadedEditorAssemblies (556ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (264ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (409ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+Failed to load shader (instanceID 460, GUID 74544b4f6fabb6e418f1fddd586dd072)
+Failed to load shader (instanceID 574, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Failed to load shader (instanceID 552, GUID 07e90747211de96428e31f6be9b27201)
+Failed to load shader (instanceID 580, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 518, GUID 02ed280057e9dde4eb526df88dfc7632)
+Failed to load shader (instanceID 558, GUID c35595e82e3b8e94f9805b258519c968)
+Failed to load shader (instanceID 556, GUID 10b48d0db7f496b49b9f141e7cd253af)
+Failed to load shader (instanceID 516, GUID 1c2965f850c1e0442ab582db916bbe66)
+Failed to load shader (instanceID 490, GUID 8b285c159c620c6459d22feaaadf4445)
+Failed to load shader (instanceID 540, GUID f2bd6fe791ee0b84ebfe53a6f1428565)
+Failed to load shader (instanceID 486, GUID d265ff20dc6e6c047a8027f89789eb92)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.11 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.61 ms.
-Unloading 4972 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 58 unused Assets / (Unknown). Loaded Objects now: 5408.
-Memory consumption went from 177.9 MB to 178.0 MB.
-Total: 4.308549 ms (FindLiveObjects: 0.445621 ms CreateObjectMapping: 0.432792 ms MarkObjects: 3.241364 ms  DeleteObjects: 0.187838 ms)
+Refreshing native plugins compatible for Editor in 1.89 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.72 ms.
+Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (80.6 KB). Loaded Objects now: 2007.
+Memory consumption went from 87.1 MB to 87.0 MB.
+Total: 3.698157 ms (FindLiveObjects: 0.159714 ms CreateObjectMapping: 0.084007 ms MarkObjects: 3.234617 ms  DeleteObjects: 0.218836 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -185,491 +190,31 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 115763.640563 seconds.
-  path: Assets/Oculus/Interaction/Samples/Scenes/Examples/DistanceGrabExamples.unity
-  artifactKey: Guid(e1c1f1d4144ac8849ac1833b99bdfd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Scenes/Examples/DistanceGrabExamples.unity using Guid(e1c1f1d4144ac8849ac1833b99bdfd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd6545db3f7bb178f31fc09fa45c37c') in 0.010776 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.833454 seconds.
-  path: Assets/Oculus/Interaction/Samples/Scenes/Examples/GestureExamples.unity
-  artifactKey: Guid(4ee2a082a0e621b49ab01667c66f1599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Scenes/Examples/GestureExamples.unity using Guid(4ee2a082a0e621b49ab01667c66f1599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2268b7e300f68ce113428ce0421d9d') in 0.001256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.002162 seconds.
-  path: Assets/Oculus/Interaction/Samples/Scenes/Examples/HandGrabExamples.unity
-  artifactKey: Guid(39ae0e546b9edc0408d3b11c6a7c2814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Scenes/Examples/HandGrabExamples.unity using Guid(39ae0e546b9edc0408d3b11c6a7c2814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb01fd67c6b5876450f06a3f8b7a04de') in 0.001885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.275290 seconds.
-  path: Assets/Oculus/Interaction/Samples/Scenes/Examples/HandGrabUseExamples.unity
-  artifactKey: Guid(509f8fa80c708b343a603a4771d35c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Scenes/Examples/HandGrabUseExamples.unity using Guid(509f8fa80c708b343a603a4771d35c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4648707aa8478da07c1bf550c6197a70') in 0.001433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 46.661315 seconds.
-  path: Assets/Oculus/Interaction/Samples/Scenes/Examples/LocomotionExamples.unity
-  artifactKey: Guid(d37ed7e92220d1045a36bc73c7c4cf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Scenes/Examples/LocomotionExamples.unity using Guid(d37ed7e92220d1045a36bc73c7c4cf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc376daaa45c9ff2d5e8dfd2a8f4dac') in 0.001025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.041582 seconds.
-  path: Assets/Oculus/Interaction/Samples/Scenes/Examples/PokeExamples.unity
-  artifactKey: Guid(ada3086bde0ab18459589e22d8d9e182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Scenes/Examples/PokeExamples.unity using Guid(ada3086bde0ab18459589e22d8d9e182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fce0078071be092f3796c302fbc244c') in 0.001266 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.789389 seconds.
-  path: Assets/Oculus/Interaction/Samples/Scenes/Examples/PoseExamples.unity
-  artifactKey: Guid(4fe358b21fe17764db89a9ab9f202327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Scenes/Examples/PoseExamples.unity using Guid(4fe358b21fe17764db89a9ab9f202327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375f5ff37452e2892e8b3944e8e7c2d7') in 0.001173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.557576 seconds.
-  path: Assets/Oculus/Interaction/Samples/Scenes/Examples/RayExamples.unity
-  artifactKey: Guid(1b2d3f90c0f50b94cb910c66c773d00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Scenes/Examples/RayExamples.unity using Guid(1b2d3f90c0f50b94cb910c66c773d00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41058d368ebc64a41106bbcb8477445d') in 0.001144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.271574 seconds.
-  path: Assets/Oculus/Interaction/Samples/Scenes/Examples/SnapExamples.unity
-  artifactKey: Guid(01ca63189b69e00488487d660224a315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Scenes/Examples/SnapExamples.unity using Guid(01ca63189b69e00488487d660224a315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66c5ddef86a65162f74906795faa7bf') in 0.000948 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.492469 seconds.
-  path: Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity
-  artifactKey: Guid(ade7d3882b4495145a8fe79f5624beab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity using Guid(ade7d3882b4495145a8fe79f5624beab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a31f775f0fd9ccd30561f977284c4d7') in 0.001257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.274127 seconds.
-  path: Assets/Oculus/Interaction/Samples/Scenes/Examples/TransformerExamples.unity
-  artifactKey: Guid(7475942f60c376744ba1ec487d140105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Scenes/Examples/TransformerExamples.unity using Guid(7475942f60c376744ba1ec487d140105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c6e6c777222eafead8feccbb6ba403') in 0.001128 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.842212 seconds.
+  Time since last request: 222476.718677 seconds.
   path: Assets/Scenes/HandGestureTemplate.unity
   artifactKey: Guid(293c029fee8d04d6990449cde5cc807e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/HandGestureTemplate.unity using Guid(293c029fee8d04d6990449cde5cc807e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67125d2d89a718e24a25c52439abec4d') in 0.001920 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005000 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/tejwindersingh/Documents/GitHub/Hand-Gesture-Recognition-in-VR/OculusIntegration_Template2023/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/tejwindersingh/Documents/GitHub/Hand-Gesture-Recognition-in-VR/OculusIntegration_Template2023/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.61 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  1.282 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1283ms)
-		BeginReloadAssembly (144ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (66ms)
-		EndReloadAssembly (1028ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (385ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (444ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (326ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on WitService
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 7.74 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.76 ms.
-Unloading 4867 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (132.4 KB). Loaded Objects now: 5412.
-Memory consumption went from 168.4 MB to 168.3 MB.
-Total: 5.194620 ms (FindLiveObjects: 0.539411 ms CreateObjectMapping: 0.525532 ms MarkObjects: 3.971846 ms  DeleteObjects: 0.156777 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Start importing Assets/Scenes/HandGestureTemplate.unity using Guid(293c029fee8d04d6990449cde5cc807e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b242fb4d857791067f19dfde42aa6c0') in 0.006226 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 704.311764 seconds.
-  path: Assets/Oculus/AudioManager
-  artifactKey: Guid(748054343f6133d44a42c54efa1cc862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/AudioManager using Guid(748054343f6133d44a42c54efa1cc862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c530593564bf15638311f2e6f80e0562') in 0.010407 seconds 
+  Time since last request: 6.707369 seconds.
+  path: Assets/Scenes/Multiplayer.unity
+  artifactKey: Guid(2267d190e06d340dc9317bcead62bfc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Multiplayer.unity using Guid(2267d190e06d340dc9317bcead62bfc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783cc3781fcca0467c9ffbe15bd315c1') in 0.001174 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.072687 seconds.
-  path: Assets/Oculus/Interaction/Runtime
-  artifactKey: Guid(ad6228a9ccc92e448b26059dce70a6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Runtime using Guid(ad6228a9ccc92e448b26059dce70a6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c65fdabaada50d0f8fd516b627a45d') in 0.001177 seconds 
+  Time since last request: 4.761964 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2dbbc1cedfd0107ca1ad38e8220053') in 0.001090 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.138614 seconds.
-  path: Assets/Oculus/Interaction/Samples/Prefabs/HandGesture/SwipeForwardGesture.prefab
-  artifactKey: Guid(740b5ee262c98df4381adba974c8f978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Prefabs/HandGesture/SwipeForwardGesture.prefab using Guid(740b5ee262c98df4381adba974c8f978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4a74a587219fdfbe573729daef66b7') in 0.879121 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005142 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/tejwindersingh/Documents/GitHub/Hand-Gesture-Recognition-in-VR/OculusIntegration_Template2023/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/tejwindersingh/Documents/GitHub/Hand-Gesture-Recognition-in-VR/OculusIntegration_Template2023/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.62 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  1.306 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1307ms)
-		BeginReloadAssembly (145ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (1046ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (383ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (464ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (341ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on WitService
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 4.71 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.64 ms.
-Unloading 4867 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (140.2 KB). Loaded Objects now: 5417.
-Memory consumption went from 172.6 MB to 172.5 MB.
-Total: 5.064518 ms (FindLiveObjects: 0.487719 ms CreateObjectMapping: 0.472711 ms MarkObjects: 3.936466 ms  DeleteObjects: 0.166514 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004865 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/tejwindersingh/Documents/GitHub/Hand-Gesture-Recognition-in-VR/OculusIntegration_Template2023/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/tejwindersingh/Documents/GitHub/Hand-Gesture-Recognition-in-VR/OculusIntegration_Template2023/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.73 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  1.450 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1450ms)
-		BeginReloadAssembly (160ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (72ms)
-		EndReloadAssembly (1177ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (428ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (519ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (376ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on WitService
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 6.53 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.58 ms.
-Unloading 4867 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (140.5 KB). Loaded Objects now: 5421.
-Memory consumption went from 172.6 MB to 172.5 MB.
-Total: 4.365900 ms (FindLiveObjects: 0.631377 ms CreateObjectMapping: 0.380337 ms MarkObjects: 3.149345 ms  DeleteObjects: 0.203964 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 7.628062 seconds.
+  path: Assets/Scenes/SceneTemplate.unity
+  artifactKey: Guid(a8991542d74388a468b05398f35a45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SceneTemplate.unity using Guid(a8991542d74388a468b05398f35a45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31a9a67024a135238320b0ed37361de') in 0.000877 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 372.063273 seconds.
-  path: Assets/Scenes/HandGestureTemplate.unity
-  artifactKey: Guid(293c029fee8d04d6990449cde5cc807e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/HandGestureTemplate.unity using Guid(293c029fee8d04d6990449cde5cc807e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57bb8d79c75a628520b3cc297bc8155e') in 0.009754 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 53.037665 seconds.
-  path: Assets/Oculus/Interaction/Samples/Objects/Environment/SmallRoom/Models/smallRoom.fbx
-  artifactKey: Guid(f7c82b9ce28f07e4fa7f50280661a061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/SmallRoom/Models/smallRoom.fbx using Guid(f7c82b9ce28f07e4fa7f50280661a061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb55ed08f1ada1c392651c69b7606282') in 0.723163 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Oculus/Interaction/Samples/Objects/Props/BigRedButton/Models/BigRedButton.fbx
-  artifactKey: Guid(4f056151902f3214fb1294871c8c9718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Objects/Props/BigRedButton/Models/BigRedButton.fbx using Guid(4f056151902f3214fb1294871c8c9718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f78c86d928873a0b7e0732236c66977') in 0.577323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Oculus/Interaction/Runtime/Prefabs/ControllerHands.prefab
-  artifactKey: Guid(13488c79ceaed7c4294a1b8e8d48de47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Runtime/Prefabs/ControllerHands.prefab using Guid(13488c79ceaed7c4294a1b8e8d48de47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa5d06d0e03115f37178ea0e12afa64') in 0.007987 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/FatHand.mat
-  artifactKey: Guid(ab04d9fb6b1844341887a1606c641c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/FatHand.mat using Guid(ab04d9fb6b1844341887a1606c641c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0eea00ee9c2ef739f1516d9bc258066') in 0.097453 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Oculus/SampleFramework/Core/DistanceGrab/Prefabs/DistanceGrabHandRight.prefab
-  artifactKey: Guid(6fae51a9f4170334e8639e8dbfc0a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/DistanceGrab/Prefabs/DistanceGrabHandRight.prefab using Guid(6fae51a9f4170334e8639e8dbfc0a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed8941e96d23dcaa151c79cf57ac5c0') in 0.144394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Oculus/SampleFramework/Core/DistanceGrab/Prefabs/DistanceGrabHandLeft.prefab
-  artifactKey: Guid(0242aa8515b4bc947a945a5c6df83ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/DistanceGrab/Prefabs/DistanceGrabHandLeft.prefab using Guid(0242aa8515b4bc947a945a5c6df83ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5d385233601ed09065706c88f01c10') in 0.023746 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Oculus/Voice/Demo/Audio/Charlie_TimerComplete.wav
-  artifactKey: Guid(ad0a5185ecef964498ee86f08f3694da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Voice/Demo/Audio/Charlie_TimerComplete.wav using Guid(ad0a5185ecef964498ee86f08f3694da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90a0a59e9e459794d2729972e39e7ad') in 1.155515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.102798 seconds.
-  path: Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/HandFilter.cs
-  artifactKey: Guid(3fcebab82b3c5dd4fac023079b7fed29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/HandFilter.cs using Guid(3fcebab82b3c5dd4fac023079b7fed29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919d9a76047641a5ca8b534a02a70ea8') in 0.228242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.167512 seconds.
-  path: Assets/Oculus/Interaction/Runtime/Scripts/Input/OneEuroFilter/HandFilterParameterBlock.cs
-  artifactKey: Guid(8cb1d32171371c744947b9c3f1911fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Runtime/Scripts/Input/OneEuroFilter/HandFilterParameterBlock.cs using Guid(8cb1d32171371c744947b9c3f1911fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17327ce5eaa660506005a0d8e71f4c01') in 0.001411 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004334 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/tejwindersingh/Documents/GitHub/Hand-Gesture-Recognition-in-VR/OculusIntegration_Template2023/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/tejwindersingh/Documents/GitHub/Hand-Gesture-Recognition-in-VR/OculusIntegration_Template2023/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.38 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.69 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  1.332 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1333ms)
-		BeginReloadAssembly (169ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (80ms)
-		EndReloadAssembly (1044ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (391ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (450ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (329ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on WitService
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 3.84 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.57 ms.
-Unloading 4867 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (140.6 KB). Loaded Objects now: 5473.
-Memory consumption went from 204.5 MB to 204.4 MB.
-Total: 4.113060 ms (FindLiveObjects: 0.379999 ms CreateObjectMapping: 0.391018 ms MarkObjects: 3.196790 ms  DeleteObjects: 0.144285 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004383 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/tejwindersingh/Documents/GitHub/Hand-Gesture-Recognition-in-VR/OculusIntegration_Template2023/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/tejwindersingh/Documents/GitHub/Hand-Gesture-Recognition-in-VR/OculusIntegration_Template2023/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.27 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.88 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  1.422 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1423ms)
-		BeginReloadAssembly (152ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (69ms)
-		EndReloadAssembly (1163ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (408ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (526ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (379ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on WitService
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 4.20 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.70 ms.
-Unloading 4867 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (140.3 KB). Loaded Objects now: 5477.
-Memory consumption went from 204.5 MB to 204.4 MB.
-Total: 4.878884 ms (FindLiveObjects: 0.441963 ms CreateObjectMapping: 0.396533 ms MarkObjects: 3.857709 ms  DeleteObjects: 0.180953 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 15.643598 seconds.
+  path: Assets/Scenes/AvatarSpeakAndInteract.unity
+  artifactKey: Guid(a6758e940c4ac4d92996604c570f1a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AvatarSpeakAndInteract.unity using Guid(a6758e940c4ac4d92996604c570f1a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc97c4876b683203eb43737bfbcce562') in 0.001850 seconds 
